@@ -30,7 +30,7 @@ a:hover::after {
     transition-duration: 0.4s;
 }
 
-div {
+nav {
     text-align: center;
     border: 3px solid black;
 }
