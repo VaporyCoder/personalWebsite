@@ -186,7 +186,9 @@ h3 {
     text-align: center;
   }
 
-  #skillslist {
+  #skillslist, #languageslist {
     list-style-type: none;
     line-height: 70px;
+    margin: 0;
+    padding: 0;
   }
