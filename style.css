@@ -156,14 +156,13 @@ h3 {
 }
 
 .AboutMe {
-    column-count: 3;
+  column-count: 3;
   column-gap: 10px;
   row-gap: 10px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   backdrop-filter: blur(10px);
-  /* break-inside: avoid; */
   border: 3px solid white;
   border-radius: 10px;
 }
@@ -179,39 +178,38 @@ h3 {
 }
 
 .Skills {
-    color: white;
-    font-size: 24px;
-    width: 750px;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    text-align: center;
-  }
+  color: white;
+  font-size: 24px;
+  width: 750px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  text-align: center;
+}
 
-  #skillslist, #languageslist {
-    list-style-type: none;
-    line-height: 70px;
-    margin: 0;
-    padding: 0;
-  }
+#skillslist,
+#languageslist {
+  list-style-type: none;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+}
 
-  .Contact {
-    color: white;
-    font-size: 24px;
-    width: 750px;
-    padding: 0px;
-    margin-top: 20px;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    max-height:1100px ;
-    overflow-y: scroll;
-    text-align: center;
-  }
+.Contact {
+  color: white;
+  font-size: 24px;
+  width: 750px;
+  padding: 0px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  max-height: 1100px;
+  overflow-y: scroll;
+  text-align: center;
+}
 
-  .Contact img {
-    margin: 0;
-    padding: 0;
-  }
-
- 
+.Contact img {
+  margin: 0;
+  padding: 0;
+}
