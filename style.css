@@ -161,26 +161,29 @@ h3 {
   row-gap: 10px;
   margin-top: 20px;
   display: flex;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  /* break-inside: avoid; */
+  border: 3px solid white;
+  border-radius: 10px;
 }
 
 .Hobbies {
-  border: 3px solid;
   color: white;
   font-size: 24px;
   width: 750px;
   padding: 15px;
-  margin: 20px;
+  margin-top: 20px;
   border-radius: 10px;
   transition-duration: 0.4s;
 }
 
 .Skills {
-    border: 3px solid;
     color: white;
     font-size: 24px;
     width: 750px;
     padding: 15px;
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     transition-duration: 0.4s;
     text-align: center;
@@ -194,14 +197,21 @@ h3 {
   }
 
   .Contact {
-    border: 3px solid;
     color: white;
     font-size: 24px;
     width: 750px;
-    padding: 15px;
-    margin: 20px;
+    padding: 0px;
+    margin-top: 20px;
     border-radius: 10px;
     transition-duration: 0.4s;
+    max-height:1100px ;
+    overflow-y: scroll;
     text-align: center;
-    display: inline;
   }
+
+  .Contact img {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
