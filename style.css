@@ -1,9 +1,11 @@
 body {
   font-family: Arial;
-  background-image: url(https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==);
+  background-image: url(https://www.itl.cat/pngfile/big/287-2874120_imac-5k-wallpapers-5k.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 a {
@@ -42,6 +44,13 @@ h1 {
   color: white;
 }
 
+.Intro {
+    font-size: 50px;
+    margin: 20px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
 h2 {
   text-align: center;
 }
@@ -53,7 +62,7 @@ h2 {
 }
 
 .HomePageCard {
-  color: white;
+    color: white;
   text-align: center;
   font-size: 40px;
   padding: 50px;
@@ -71,7 +80,7 @@ h2 {
 }
 
 .HomePageCard::after {
-  background-color: white;
+    background-color: white;
   color: lightslategray;
 }
 
@@ -82,20 +91,47 @@ h2 {
 #Armin {
   margin: 20px;
   border-radius: 10px;
+  transition-duration: 0.4s;
 }
 
-.container {
+#Armin:hover {
+    scale: 1.05;
+    box-shadow: 10px 10px 5px;
+    transition-duration: 0.4s;
+}
+
+#Armin::after {
+    scale: 1.05;
+    box-shadow: 10px 10px 5px;
+    transition-duration: 0.4s;
+}
+
+#Armin:hover::after {
+    scale: 1.05;
+    box-shadow: 10px 10px 5px;
+  transition-duration: 0.4s;
+}
+
+.container1 {
   column-count: 3;
   column-gap: 10px;
   row-gap: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
+  display: flex;
 }
 
+.container2 {
+    column-count: 3;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    display: flex;
+  }
+
 .card {
-  border: 4px solid;
+  border: 4px solid white;
   border-radius: 10px;
-  -webkit-backdrop-filter: blur(25px);
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(10px);
   break-inside: avoid;
   text-align: center;
   margin: 10px;
@@ -113,7 +149,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   text-align: center;
   color: white;
