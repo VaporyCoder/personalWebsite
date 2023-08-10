@@ -1,1 +1,3 @@
-# personalWebsite
+# This is my personal website
+
+##Just a few things about me...
