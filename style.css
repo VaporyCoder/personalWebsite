@@ -1,11 +1,13 @@
 body {
   font-family: Arial;
+  background-image: url(https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
-  color: red;
+  color: white;
   text-decoration: none;
-  background-color: white;
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
@@ -16,9 +18,9 @@ a {
 }
 
 a:hover {
-  background-color: red;
-  color: white;
+    background-color: white;
   transition-duration: 0.4s;
+  color: lightslategray;
 }
 
 a::after {
@@ -39,4 +41,18 @@ nav {
 h1,
 h2 {
   text-align: center;
+  color: white;
+}
+
+div {
+    column-count: 3;
+}
+
+.card {
+    border: 3px solid;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    break-inside: avoid;
+    text-align: center;
 }
